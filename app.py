@@ -49,6 +49,7 @@ def initdb(drop):
 def forge():
     """Generate fake data."""
     db.create_all()
+    
 
     name = 'Grey Li'
     movies = [
